@@ -72,7 +72,7 @@ if (isset($argv[1]) && (($handle = fopen($argv[1], "r")) !== FALSE)) {
             echo "<li>" . $name_only . ", ".$data[12]. " (" . $data[0].") : \n<br>" .
                 "&nbsp;&nbsp;searched: $name\n<ul>";
             
-            // Build a SNAC Identity Constellation Array (JSON object)
+            // Build a SNAC query with an Identity Constellation Array (JSON object)
             $snacArray = array(
                 "command" => "reconcile",
                 "constellation" => array (
@@ -87,6 +87,7 @@ if (isset($argv[1]) && (($handle = fopen($argv[1], "r")) !== FALSE)) {
                 )
             );
 
+            // Encode Associative Array as JSON object
             $query = json_encode($snacArray, JSON_PRETTY_PRINT);
 
             // Use CURL to send reconciliation request to the REST API
@@ -103,7 +104,10 @@ if (isset($argv[1]) && (($handle = fopen($argv[1], "r")) !== FALSE)) {
             $responseJSON = curl_exec($ch);
             curl_close($ch);
 
+            // Decode JSON response into an Associative Array
             $response = json_decode($responseJSON, true);
+            
+            // If reconciliation succeeded, then process the results
             if (isset($response["reconciliation"])) {
                 foreach ($response["reconciliation"] as $i => $result) {
                     // Round the strength to a manageable precision
