@@ -27,6 +27,7 @@ if (isset($argv[1]) && (($handle = fopen($argv[1], "r")) !== FALSE)) {
         "Elastic75 Score",
         "Original Length Score",
         "Original Length Difference Score",
+        "Entity Type Filter Score",
         "SNAC Degree Score"
     );
     fputcsv(STDOUT, $output);    
@@ -57,6 +58,9 @@ if (isset($argv[1]) && (($handle = fopen($argv[1], "r")) !== FALSE)) {
                 "command" => "reconcile",
                 "constellation" => array (
                     "dataType" => "Constellation",
+                    "entityType" => array (
+                        "term" => "person"
+                    ),
                     "nameEntries" => array ( 
                         array ( 
                             "dataType" => "NameEntry",
@@ -72,7 +76,7 @@ if (isset($argv[1]) && (($handle = fopen($argv[1], "r")) !== FALSE)) {
 
             // Use CURL to send reconciliation request to the REST API
             $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, "http://snac-web.iath.virginia.edu:81/");
+            curl_setopt($ch, CURLOPT_URL, "http://localhost/snac_server/rest/");
             curl_setopt($ch, CURLOPT_HTTPHEADER,
                 array (
                     'Content-Type: application/json',
@@ -83,7 +87,7 @@ if (isset($argv[1]) && (($handle = fopen($argv[1], "r")) !== FALSE)) {
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
             $responseJSON = curl_exec($ch);
             curl_close($ch);
-
+            
             // Decode JSON response into an Associative Array
             $response = json_decode($responseJSON, true);
 
@@ -106,6 +110,7 @@ if (isset($argv[1]) && (($handle = fopen($argv[1], "r")) !== FALSE)) {
                         isset($result['vector']["ElasticSeventyFive"]) ? $result['vector']["ElasticSeventyFive"] : 0,
                         isset($result['vector']["OriginalLength"]) ? $result['vector']["OriginalLength"] : 0,
                         isset($result['vector']["MultiStage:ElasticNameOnly:OriginalLengthDifference"]) ? $result['vector']["MultiStage:ElasticNameOnly:OriginalLengthDifference"] : 0,
+                        isset($result['vector']["MultiStage:ElasticNameOnly:EntityTypeFilter"]) ? $result['vector']["MultiStage:ElasticNameOnly:EntityTypeFilter"] : 0,
                         isset($result['vector']["MultiStage:ElasticNameOnly:SNACDegree"]) ? $result['vector']["MultiStage:ElasticNameOnly:SNACDegree"] : 0
                     );
                     fputcsv(STDOUT, $output);    

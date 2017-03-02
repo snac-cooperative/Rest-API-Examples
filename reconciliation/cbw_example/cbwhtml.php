@@ -77,6 +77,9 @@ if (isset($argv[1]) && (($handle = fopen($argv[1], "r")) !== FALSE)) {
                 "command" => "reconcile",
                 "constellation" => array (
                     "dataType" => "Constellation",
+                    "entityType" => array (
+                        "term" => "person"
+                    ),
                     "nameEntries" => array ( 
                         array ( 
                             "dataType" => "NameEntry",
