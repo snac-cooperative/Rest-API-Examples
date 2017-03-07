@@ -35,12 +35,12 @@ import javax.swing.filechooser.FileNameExtensionFilter;
  *
  */
 public class CBWReconcileUI extends javax.swing.JFrame {
-	
+
 	/**
 	 * Serial ID
 	 */
 	private static final long serialVersionUID = -8115653654144568030L;
-	
+
 	/**
 	 * GUI Variables
 	 */
@@ -61,20 +61,20 @@ public class CBWReconcileUI extends javax.swing.JFrame {
 	private JLabel toCSVFileLabel;
 	private JLabel toCSVFileLocationLabel;
 	private JButton toCSVFileButton;
-	
+
 	/**
 	 * Reconciliation File Variables
 	 */
 	private String fromCSVFile;
 	private String toCSVFile;
-	
+
 
 	{
 		//Set Look & Feel
 		try {
 			javax.swing.UIManager.setLookAndFeel(javax.swing.UIManager.getSystemLookAndFeelClassName());
 		} catch(Exception e) {
-			//e.printStackTrace();
+			// Silently ignoring errors
 		}
 	}
 
@@ -89,7 +89,7 @@ public class CBWReconcileUI extends javax.swing.JFrame {
 		//Mac Niceness
 		System.setProperty("com.apple.mrj.application.apple.menu.about.name", "CBW-SNAC Reconciler");
 
-		
+
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
 				CBWReconcileUI inst = new CBWReconcileUI();
@@ -98,7 +98,7 @@ public class CBWReconcileUI extends javax.swing.JFrame {
 			}
 		});
 	}
-	
+
 	/**
 	 * Constructor
 	 * 
@@ -108,7 +108,7 @@ public class CBWReconcileUI extends javax.swing.JFrame {
 		super();
 		initGUI();
 	}
-	
+
 	/**
 	 * Initialize GUI
 	 * 
@@ -116,7 +116,7 @@ public class CBWReconcileUI extends javax.swing.JFrame {
 	 */
 	private void initGUI() {
 		try {
-			
+
 			BorderLayout thisLayout = new BorderLayout();
 			getContentPane().setLayout(thisLayout);
 			{
@@ -139,7 +139,7 @@ public class CBWReconcileUI extends javax.swing.JFrame {
 				bodyPanel.add(reconcilePanel);
 				reconcilePanel.setSize(700, 200);
 				reconcilePanel.setPreferredSize(new java.awt.Dimension(700, 200));
-				
+
 				// lookup buttons
 				{
 					fromCSVFileLabel = new JLabel();
@@ -159,13 +159,13 @@ public class CBWReconcileUI extends javax.swing.JFrame {
 						public void actionPerformed(ActionEvent evt) {
 							// Pop up a file chooser for the user to pick a CSV file
 							JFileChooser chooser2 = new JFileChooser();
-						    chooser2.setDialogTitle("Choose a CSV File.");
-						    chooser2.setFileFilter(new FileNameExtensionFilter("CSV Files", "csv"));
-						    int returnVal = chooser2.showOpenDialog(null);
-						    if(returnVal == JFileChooser.APPROVE_OPTION) {
-						    	fromCSVFile = chooser2.getSelectedFile().getAbsolutePath();
+							chooser2.setDialogTitle("Choose a CSV File.");
+							chooser2.setFileFilter(new FileNameExtensionFilter("CSV Files", "csv"));
+							int returnVal = chooser2.showOpenDialog(null);
+							if(returnVal == JFileChooser.APPROVE_OPTION) {
+								fromCSVFile = chooser2.getSelectedFile().getAbsolutePath();
 								fromCSVFileLocationLabel.setText(fromCSVFile);
-						    }
+							}
 
 						}
 					});
@@ -194,18 +194,18 @@ public class CBWReconcileUI extends javax.swing.JFrame {
 							// Pop up a file chooser for the user to find a directory and
 							// enter a filename for the destination CSV.
 							JFileChooser chooser2 = new JFileChooser();
-						    chooser2.setDialogTitle("Choose a Destination CSV File.");
-						    chooser2.setFileFilter(new FileNameExtensionFilter("CSV Files","csv"));
-						    int returnVal = chooser2.showOpenDialog(null);
-						    if(returnVal == JFileChooser.APPROVE_OPTION) {
-						    	toCSVFile = chooser2.getSelectedFile().getAbsolutePath();
+							chooser2.setDialogTitle("Choose a Destination CSV File.");
+							chooser2.setFileFilter(new FileNameExtensionFilter("CSV Files","csv"));
+							int returnVal = chooser2.showOpenDialog(null);
+							if(returnVal == JFileChooser.APPROVE_OPTION) {
+								toCSVFile = chooser2.getSelectedFile().getAbsolutePath();
 								toCSVFileLocationLabel.setText(toCSVFile);
-						    }
+							}
 
 						}
 					});
 				}
-				
+
 				{
 					jSeparator2 = new JSeparator();
 					reconcilePanel.add(jSeparator2);
@@ -230,14 +230,14 @@ public class CBWReconcileUI extends javax.swing.JFrame {
 										@Override
 										public void propertyChange(
 												PropertyChangeEvent evt) {
-									        if ("progress" == evt.getPropertyName()) {
-									             int progress = (Integer) evt.getNewValue();
-									            reconcileProgressBar.setValue(progress);
-									            reconcileProgressLabel.setText(rw.getProgressText());
-									        } 
+											if ("progress" == evt.getPropertyName()) {
+												int progress = (Integer) evt.getNewValue();
+												reconcileProgressBar.setValue(progress);
+												reconcileProgressLabel.setText(rw.getProgressText());
+											} 
 										}
 									});
-							        rw.execute();
+									rw.execute();
 								} catch (Exception e) {
 									// Silently ignoring errors
 								}
@@ -267,7 +267,7 @@ public class CBWReconcileUI extends javax.swing.JFrame {
 					reconcilePanel.add(reconcileProgressLabel);
 				}
 
-				
+
 			}
 			this.setSize(700, 400);
 			this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -275,8 +275,8 @@ public class CBWReconcileUI extends javax.swing.JFrame {
 			// Silently ignoring errors
 		}
 	}
-	
-	
+
+
 
 
 }
