@@ -109,8 +109,8 @@ if (isset($argv[1]) && (($handle = fopen($argv[1], "r")) !== FALSE)) {
                         isset($result['vector']["ElasticNameOnly"]) ? $result['vector']["ElasticNameOnly"] : 0,
                         isset($result['vector']["ElasticSeventyFive"]) ? $result['vector']["ElasticSeventyFive"] : 0,
                         isset($result['vector']["OriginalLength"]) ? $result['vector']["OriginalLength"] : 0,
-                        isset($result['vector']["MultiStage:ElasticNameOnly:OriginalLengthDifference"]) ? $result['vector']["MultiStage:ElasticNameOnly:OriginalLengthDifference"] : 0,
-                        isset($result['vector']["MultiStage:ElasticNameOnly:EntityTypeFilter"]) ? $result['vector']["MultiStage:ElasticNameOnly:EntityTypeFilter"] : 0,
+                        isset($result['vector']["OriginalLengthDifference"]) ? $result['vector']["OriginalLengthDifference"] : 0,
+                        isset($result['vector']["EntityTypeFilter"]) ? $result['vector']["EntityTypeFilter"] : 0,
                         isset($result['vector']["MultiStage:ElasticNameOnly:SNACDegree"]) ? $result['vector']["MultiStage:ElasticNameOnly:SNACDegree"] : 0
                     );
                     fputcsv(STDOUT, $output);    
