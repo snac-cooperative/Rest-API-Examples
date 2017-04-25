@@ -243,8 +243,8 @@ public class CBWReconcileWorker extends SwingWorker<Void, Void> {
 							vector.has("ElasticNameOnly") ? JSONObject.doubleToString(vector.getDouble("ElasticNameOnly")) : "0",
 							vector.has("ElasticSeventyFive") ? JSONObject.doubleToString(vector.getDouble("ElasticSeventyFive")) : "0",
 							vector.has("OriginalLength") ? JSONObject.doubleToString(vector.getDouble("OriginalLength")) : "0",
-							vector.has("MultiStage:ElasticNameOnly:OriginalLengthDifference") ? JSONObject.doubleToString(vector.getDouble("MultiStage:ElasticNameOnly:OriginalLengthDifference")) : "0",
-							vector.has("MultiStage:ElasticNameOnly:EntityTypeFilter") ? JSONObject.doubleToString(vector.getDouble("MultiStage:ElasticNameOnly:EntityTypeFilter")) : "0",
+							vector.has("OriginalLengthDifference") ? JSONObject.doubleToString(vector.getDouble("OriginalLengthDifference")) : "0",
+							vector.has("EntityTypeFilter") ? JSONObject.doubleToString(vector.getDouble("EntityTypeFilter")) : "0",
 							vector.has("MultiStage:ElasticNameOnly:SNACDegree") ? JSONObject.doubleToString(vector.getDouble("MultiStage:ElasticNameOnly:SNACDegree")) : "0"
 					};
 

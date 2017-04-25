@@ -159,6 +159,7 @@ public class CBWReconcileUI extends javax.swing.JFrame {
 						public void actionPerformed(ActionEvent evt) {
 							// Pop up a file chooser for the user to pick a CSV file
 							JFileChooser chooser2 = new JFileChooser();
+							chooser2.setDialogType(JFileChooser.OPEN_DIALOG);
 							chooser2.setDialogTitle("Choose a CSV File.");
 							chooser2.setFileFilter(new FileNameExtensionFilter("CSV Files", "csv"));
 							int returnVal = chooser2.showOpenDialog(null);
@@ -195,8 +196,9 @@ public class CBWReconcileUI extends javax.swing.JFrame {
 							// enter a filename for the destination CSV.
 							JFileChooser chooser2 = new JFileChooser();
 							chooser2.setDialogTitle("Choose a Destination CSV File.");
+							chooser2.setDialogType(JFileChooser.SAVE_DIALOG);
 							chooser2.setFileFilter(new FileNameExtensionFilter("CSV Files","csv"));
-							int returnVal = chooser2.showOpenDialog(null);
+							int returnVal = chooser2.showSaveDialog(null);
 							if(returnVal == JFileChooser.APPROVE_OPTION) {
 								toCSVFile = chooser2.getSelectedFile().getAbsolutePath();
 								toCSVFileLocationLabel.setText(toCSVFile);
