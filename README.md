@@ -13,5 +13,5 @@ http://snac-dev.iath.virginia.edu:81
 When you are ready to "go live" with your project, switch to the production API located at:
 
 ```
-http://snac-web.iath.virginia.edu:81
+http://api.snaccooperative.org
 ```
