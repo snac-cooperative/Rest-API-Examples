@@ -1,0 +1,1572 @@
+{
+    "constellation": {
+        "dataType": "Constellation",
+        "ark": "http://n2t.net/ark:/99166/w6nf1wh2",
+        "entityType": {
+            "id": "700",
+            "term": "person",
+            "uri": "http://socialarchive.iath.virginia.edu/control/term#Person",
+            "type": "entity_type"
+        },
+        "otherRecordIDs": [
+            {
+                "dataType": "SameAs",
+                "type": {
+                    "id": "28226",
+                    "term": "viafID",
+                    "uri": "http://viaf.org/viaf/terms#viafID",
+                    "type": "record_type"
+                },
+                "uri": "173636607",
+                "id": "50447200",
+                "version": "7374452"
+            },
+            {
+                "dataType": "SameAs",
+                "type": {
+                    "id": "28225",
+                    "term": "sameAs",
+                    "uri": "http://socialarchive.iath.virginia.edu/control/term#sameAs",
+                    "type": "record_type"
+                },
+                "text": "Holmes, Sherlock",
+                "uri": "http://viaf.org/viaf/173636607",
+                "id": "50447201",
+                "version": "7374452"
+            },
+            {
+                "dataType": "SameAs",
+                "type": {
+                    "id": "28225",
+                    "term": "sameAs",
+                    "uri": "http://socialarchive.iath.virginia.edu/control/term#sameAs",
+                    "type": "record_type"
+                },
+                "uri": "http://www.worldcat.org/wcidentities/lccn-no2013039964",
+                "id": "50447202",
+                "version": "7374452"
+            },
+            {
+                "dataType": "SameAs",
+                "type": {
+                    "id": "28225",
+                    "term": "sameAs",
+                    "uri": "http://socialarchive.iath.virginia.edu/control/term#sameAs",
+                    "type": "record_type"
+                },
+                "uri": "http://id.loc.gov/authorities/names/no2013039964",
+                "id": "50447203",
+                "version": "7374452"
+            }
+        ],
+        "sources": [
+            {
+                "dataType": "Source",
+                "type": {
+                    "id": "28296",
+                    "term": "simple",
+                    "type": "source_type"
+                },
+                "displayName": "Source 2: http://viaf.org/viaf/173636607",
+                "uri": "http://viaf.org/viaf/173636607",
+                "id": "50447075",
+                "version": "7374452"
+            },
+            {
+                "dataType": "Source",
+                "type": {
+                    "id": "28296",
+                    "term": "simple",
+                    "type": "source_type"
+                },
+                "displayName": "Source 1: EAD from http://webapp1.dlib.indiana.edu/findingaids/view?doc.view=entire_text&docId=InU-Li-VAC4773",
+                "text": "<objectXMLWrap>\n               <container xmlns=\"\">\n                  <filename>/data/source/findingAids/inu/InU-Li-VAC4773.xml</filename>\n                  <ead_entity en_type=\"persname\">Holmes, Sherlock</ead_entity>\n               </container>\n            </objectXMLWrap>",
+                "uri": "http://webapp1.dlib.indiana.edu/findingaids/view?doc.view=entire_text&docId=InU-Li-VAC4773",
+                "id": "50447074",
+                "version": "7374452"
+            }
+        ],
+        "conventionDeclarations": [
+            {
+                "dataType": "ConventionDeclaration",
+                "text": "<conventionDeclaration><citation>VIAF</citation></conventionDeclaration>",
+                "id": "50447076",
+                "version": "7374452"
+            }
+        ],
+        "languagesUsed": [
+            {
+                "dataType": "Language",
+                "language": {
+                    "id": "130",
+                    "term": "eng",
+                    "type": "language_code",
+                    "description": "English"
+                },
+                "script": {
+                    "id": "685",
+                    "term": "Zyyy",
+                    "type": "script_code",
+                    "description": "Code for undetermined script"
+                },
+                "id": "50447077",
+                "version": "7374452"
+            }
+        ],
+        "nameEntries": [
+            {
+                "dataType": "NameEntry",
+                "original": "Holmes, Sherlock",
+                "preferenceScore": "99",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Holmes, Sherlock",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447079",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447078",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"inu\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    },\n    {\n        \"contributor\": \"LC\",\n        \"form\": \"authorizedForm\"\n    },\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925282",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Holmes, Sherlock, personnage fictif",
+                "preferenceScore": "2",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Holmes, Sherlock, personnage fictif",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447085",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447084",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925283",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Holmes, Sherlock 1854 January 06-",
+                "preferenceScore": "1",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Holmes, Sherlock 1854 January 06-",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447088",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447087",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"authorizedForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925284",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Holmsas, Šerlokas",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Holmsas, Šerlokas",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447091",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447090",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925285",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Χολμς, Σέρλοκ",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Χολμς, Σέρλοκ",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447094",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447093",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925286",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "シャーロック・ホームズ",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "シャーロック・ホームズ",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447097",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447096",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925287",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Fuermosi, Xieluoke",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Fuermosi, Xieluoke",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447100",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447099",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925288",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "歇洛克·福尔摩斯",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "歇洛克·福尔摩斯",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447103",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447102",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925289",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Holms, Şerlok",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Holms, Şerlok",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447106",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447105",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925290",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Kholms, Shėrlak",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Kholms, Shėrlak",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447109",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447108",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925291",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Холмс, Шерлок",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Холмс, Шерлок",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447112",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447111",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925292",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Holms, Sherloḳ",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Holms, Sherloḳ",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447115",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447114",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925293",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "福尔摩斯, 歇洛克",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "福尔摩斯, 歇洛克",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447118",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447117",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925294",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Holms, Şerlok",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Holms, Şerlok",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447121",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447120",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925295",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Hōmuzu, Shārokku",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Hōmuzu, Shārokku",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447124",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447123",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925296",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Holmss, Šerloks",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Holmss, Šerloks",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447127",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447126",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925297",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Holmes, Sherlock (Fictitious character)",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Holmes, Sherlock (Fictitious character)",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447130",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447129",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925298",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Holmsos, Šerloks",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Holmsos, Šerloks",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447133",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447132",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925299",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Sherlock, Sherlock",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Sherlock, Sherlock",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447136",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447135",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925300",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Holmsas, Šerlokas",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Holmsas, Šerlokas",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447139",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447138",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925301",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Kholms, Shėrlak",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Kholms, Shėrlak",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447142",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447141",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925302",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Hōmuzu, Shārokku",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Hōmuzu, Shārokku",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447145",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447144",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925303",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "הולמס, שרלוק",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "הולמס, שרלוק",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447148",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447147",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925304",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "ホームズ, シャーロック",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "ホームズ, シャーロック",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447151",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447150",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925305",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Hūlmz, Sharlūk",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Hūlmz, Sharlūk",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447154",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447153",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925306",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Χολμς, Σέρλοκ",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Χολμς, Σέρλοκ",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447157",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447156",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925307",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Sherlock Holmes personnage fictif",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Sherlock Holmes personnage fictif",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447160",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447159",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925308",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Holmsos, Šerloks",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Holmsos, Šerloks",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447163",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447162",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925309",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Hūlmz, Sharlūk",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Hūlmz, Sharlūk",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447166",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447165",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925310",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Cholms, Serlok",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Cholms, Serlok",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447169",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447168",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925311",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Sherlock Holmes",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Sherlock Holmes",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447172",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447171",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925312",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Holmss, Šerloks",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Holmss, Šerloks",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447175",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447174",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925313",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "هولمز، شرلوك",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "هولمز، شرلوك",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447178",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447177",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925314",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Sherlock, Sherlock (Fictional Character)",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Sherlock, Sherlock (Fictional Character)",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447181",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447180",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925315",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Huolmsos, Šerluoks",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Huolmsos, Šerluoks",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447184",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447183",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925316",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Holms, Sherloḳ",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Holms, Sherloḳ",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447187",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447186",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925317",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Huolmsos, Šerluoks",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Huolmsos, Šerluoks",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447190",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447189",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925318",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Kholms, Sherlok",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Kholms, Sherlok",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447193",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447192",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925319",
+                        "version": "7374452"
+                    }
+                ]
+            },
+            {
+                "dataType": "NameEntry",
+                "original": "Холмс, Шэрлак",
+                "preferenceScore": "0",
+                "components": [
+                    {
+                        "dataType": "NameComponent",
+                        "text": "Холмс, Шэрлак",
+                        "order": "0",
+                        "type": {
+                            "id": "400228",
+                            "term": "Name",
+                            "type": "name_component"
+                        },
+                        "id": "50447196",
+                        "version": "7374452"
+                    }
+                ],
+                "id": "50447195",
+                "version": "7374452",
+                "snacControlMetadata": [
+                    {
+                        "dataType": "SNACControlMetadata",
+                        "sourceData": "[\n    {\n        \"contributor\": \"VIAF\",\n        \"form\": \"alternativeForm\"\n    }\n]",
+                        "note": "Contributors from initial SNAC EAC-CPF ingest",
+                        "id": "80925320",
+                        "version": "7374452"
+                    }
+                ]
+            }
+        ],
+        "relations": [
+            {
+                "dataType": "ConstellationRelation",
+                "sourceConstellation": 50447072,
+                "targetConstellation": "55717311",
+                "sourceArkID": "http://n2t.net/ark:/99166/w6nf1wh2",
+                "targetArkID": "http://n2t.net/ark:/99166/w6vx19s9",
+                "targetEntityType": {
+                    "id": "700",
+                    "term": "person",
+                    "uri": "http://socialarchive.iath.virginia.edu/control/term#Person",
+                    "type": "entity_type"
+                },
+                "type": {
+                    "id": "28234",
+                    "term": "associatedWith",
+                    "uri": "http://socialarchive.iath.virginia.edu/control/term#associatedWith",
+                    "type": "relation_type"
+                },
+                "content": "MacCarthy, Desmond, 1877-1952",
+                "id": "50447204",
+                "version": "7374452"
+            }
+        ],
+        "resourceRelations": [
+            {
+                "dataType": "ResourceRelation",
+                "resource": {
+                    "dataType": "Resource",
+                    "documentType": {
+                        "id": "697",
+                        "term": "BibliographicResource",
+                        "uri": "http://socialarchive.iath.virginia.edu/control/term#BibliographicResource",
+                        "type": "document_type"
+                    },
+                    "title": "The autobiography of Sherlock Holmes, 2012:",
+                    "displayEntry": "The autobiography of Sherlock Holmes, 2012:",
+                    "id": "4986808",
+                    "version": "4986808"
+                },
+                "role": {
+                    "id": "692",
+                    "term": "creatorOf",
+                    "uri": "http://socialarchive.iath.virginia.edu/control/term#creatorOf",
+                    "type": "document_role"
+                },
+                "content": "The autobiography of Sherlock Holmes, 2012:",
+                "id": "50447207",
+                "version": "7374452"
+            },
+            {
+                "dataType": "ResourceRelation",
+                "resource": {
+                    "dataType": "Resource",
+                    "documentType": {
+                        "id": "697",
+                        "term": "BibliographicResource",
+                        "uri": "http://socialarchive.iath.virginia.edu/control/term#BibliographicResource",
+                        "type": "document_type"
+                    },
+                    "title": "Der Nürnberger Sherlock Holmes : &lt;Deutsche Criminal- und Detektiv-Zeitung.&gt;",
+                    "displayEntry": "Der Nürnberger Sherlock Holmes : &lt;Deutsche Criminal- und Detektiv-Zeitung.&gt;",
+                    "id": "1254051",
+                    "version": "1254051"
+                },
+                "role": {
+                    "id": "692",
+                    "term": "creatorOf",
+                    "uri": "http://socialarchive.iath.virginia.edu/control/term#creatorOf",
+                    "type": "document_role"
+                },
+                "content": "Der Nürnberger Sherlock Holmes : &lt;Deutsche Criminal- und Detektiv-Zeitung.&gt;",
+                "id": "50447209",
+                "version": "7374452"
+            },
+            {
+                "dataType": "ResourceRelation",
+                "resource": {
+                    "dataType": "Resource",
+                    "documentType": {
+                        "id": "697",
+                        "term": "BibliographicResource",
+                        "uri": "http://socialarchive.iath.virginia.edu/control/term#BibliographicResource",
+                        "type": "document_type"
+                    },
+                    "title": "Sherlock Holmes : Deutsche Kriminal- und Detektiv-Zeitung.",
+                    "displayEntry": "Sherlock Holmes : Deutsche Kriminal- und Detektiv-Zeitung.",
+                    "id": "4564682",
+                    "version": "4564682"
+                },
+                "role": {
+                    "id": "692",
+                    "term": "creatorOf",
+                    "uri": "http://socialarchive.iath.virginia.edu/control/term#creatorOf",
+                    "type": "document_role"
+                },
+                "content": "Sherlock Holmes : Deutsche Kriminal- und Detektiv-Zeitung.",
+                "id": "50447208",
+                "version": "7374452"
+            },
+            {
+                "dataType": "ResourceRelation",
+                "resource": {
+                    "dataType": "Resource",
+                    "documentType": {
+                        "id": "697",
+                        "term": "BibliographicResource",
+                        "uri": "http://socialarchive.iath.virginia.edu/control/term#BibliographicResource",
+                        "type": "document_type"
+                    },
+                    "title": "Baker Street Rubáiyát, 1949:",
+                    "displayEntry": "Baker Street Rubáiyát, 1949:",
+                    "id": "553993",
+                    "version": "553993"
+                },
+                "role": {
+                    "id": "692",
+                    "term": "creatorOf",
+                    "uri": "http://socialarchive.iath.virginia.edu/control/term#creatorOf",
+                    "type": "document_role"
+                },
+                "content": "Baker Street Rubáiyát, 1949:",
+                "id": "50447210",
+                "version": "7374452"
+            },
+            {
+                "dataType": "ResourceRelation",
+                "resource": {
+                    "dataType": "Resource",
+                    "documentType": {
+                        "id": "696",
+                        "term": "ArchivalResource",
+                        "uri": "http://socialarchive.iath.virginia.edu/control/term#ArchivalResource",
+                        "type": "document_type"
+                    },
+                    "link": "http://webapp1.dlib.indiana.edu/findingaids/view?doc.view=entire_text&docId=InU-Li-VAC4773",
+                    "source": "<objectXMLWrap>\n               <did xmlns=\"urn:isbn:1-931666-22-9\">\n                  <repository>\n                     <corpname>Lilly Library (Indiana University, Bloomington)</corpname>\n                     <address>\n                        <addressline>Lilly Library</addressline>\n                        <addressline>Indiana University</addressline>\n                        <addressline>1200 E. Seventh St.</addressline>\n                        <addressline>Bloomington, IN 47405-5500</addressline>\n                        <addressline>Phone: 812-855-2452</addressline>\n                        <addressline>Fax: 812-855-3143</addressline>\n                        <addressline>Email: liblilly@indiana.edu</addressline>\n                     </address>\n                  </repository>\n                  <origination>\n                     <persname>MacCarthy, Desmond,\n                    1877-1952.</persname>\n                  </origination>\n                  <unittitle>MacCarthy mss.</unittitle>\n                  <unitdate>1863-1991</unitdate>\n                  <unitid>LMC 1684</unitid>\n                  <physdesc>\n                     <extent>10,000 items</extent>\n                  </physdesc>\n                  <langmaterial>Materials are in <language>English</language>\n                  </langmaterial>\n                  <abstract>Consists of the papers of drama and\n                literary critic Desmond MacCarthy, 1877-1952, and his wife, author Mary\n                (Warre-Cornish) MacCarthy, 1882-1953.</abstract>\n               </did>\n            </objectXMLWrap>",
+                    "title": "MacCarthy mss. 1863-1991",
+                    "abstract": "Consists of the papers of drama and                literary critic Desmond MacCarthy, 1877-1952, and his wife, author Mary                (Warre-Cornish) MacCarthy, 1882-1953.",
+                    "extent": "10,000 items",
+                    "displayEntry": "MacCarthy mss., 1863-1991",
+                    "originationNames": [
+                        {
+                            "dataType": "OriginationName",
+                            "name": "MacCarthy, Desmond,                    1877-1952.",
+                            "id": "11603156",
+                            "version": "6625071"
+                        }
+                    ],
+                    "languages": [
+                        {
+                            "dataType": "Language",
+                            "language": {
+                                "id": "130",
+                                "term": "eng",
+                                "type": "language_code",
+                                "description": "English"
+                            },
+                            "id": "11603157",
+                            "version": "6625071"
+                        }
+                    ],
+                    "repository": {
+                        "dataType": "Constellation",
+                        "ark": "http://n2t.net/ark:/99166/w67n0xq4",
+                        "entityType": {
+                            "id": "698",
+                            "term": "corporateBody",
+                            "uri": "http://socialarchive.iath.virginia.edu/control/term#CorporateBody",
+                            "type": "entity_type"
+                        },
+                        "nameEntries": [
+                            {
+                                "dataType": "NameEntry",
+                                "original": "Lilly Library (Indiana University, Bloomington)",
+                                "preferenceScore": "99",
+                                "id": "76794208",
+                                "version": "11238229"
+                            }
+                        ],
+                        "places": [
+                            {
+                                "dataType": "Place",
+                                "original": "Lilly Library (Indiana University, Bloomington)",
+                                "type": {
+                                    "id": "400242",
+                                    "term": "Address",
+                                    "uri": "http://socialarchive.iath.virginia.edu/control/term#Address",
+                                    "type": "place_type"
+                                },
+                                "address": [
+                                    {
+                                        "dataType": "AddressLine",
+                                        "text": "Lilly Library Indiana University 1200 E. Seventh St. Bloomington, IN 47405-5500 Phone: 812-855-2452 Fax: 812-855-3143 Email: liblilly@indiana.edu",
+                                        "order": "0",
+                                        "type": {
+                                            "id": "400243",
+                                            "term": "Unspecified",
+                                            "uri": "http://socialarchive.iath.virginia.edu/control/term#Unspecified",
+                                            "type": "address_part"
+                                        },
+                                        "id": "76794211",
+                                        "version": "11238229"
+                                    }
+                                ],
+                                "id": "76794210",
+                                "version": "11238229"
+                            }
+                        ],
+                        "id": "76794207",
+                        "version": "11238232"
+                    },
+                    "id": "6625071",
+                    "version": "6625071"
+                },
+                "role": {
+                    "id": "693",
+                    "term": "referencedIn",
+                    "uri": "http://socialarchive.iath.virginia.edu/control/term#referencedIn",
+                    "type": "document_role"
+                },
+                "content": "MacCarthy mss., 1863-1991",
+                "id": "50447205",
+                "version": "7374452"
+            },
+            {
+                "dataType": "ResourceRelation",
+                "resource": {
+                    "dataType": "Resource",
+                    "documentType": {
+                        "id": "697",
+                        "term": "BibliographicResource",
+                        "uri": "http://socialarchive.iath.virginia.edu/control/term#BibliographicResource",
+                        "type": "document_type"
+                    },
+                    "title": "The new annotated Sherlock Holmes, 2005:",
+                    "displayEntry": "The new annotated Sherlock Holmes, 2005:",
+                    "id": "5309147",
+                    "version": "5309147"
+                },
+                "role": {
+                    "id": "692",
+                    "term": "creatorOf",
+                    "uri": "http://socialarchive.iath.virginia.edu/control/term#creatorOf",
+                    "type": "document_role"
+                },
+                "content": "The new annotated Sherlock Holmes, 2005:",
+                "id": "50447206",
+                "version": "7374452"
+            }
+        ],
+        "nationalities": [
+            {
+                "dataType": "Nationality",
+                "term": {
+                    "id": "7849",
+                    "term": "Great Britain",
+                    "type": "nationality"
+                },
+                "id": "50447198",
+                "version": "7374452"
+            }
+        ],
+        "id": 50447072,
+        "version": "11254455",
+        "dates": [
+            {
+                "dataType": "SNACDate",
+                "fromDate": "1854-01-06",
+                "fromDateOriginal": "1854-01-06",
+                "fromType": {
+                    "id": "689",
+                    "term": "Birth",
+                    "uri": "http://socialarchive.iath.virginia.edu/control/term#Birth",
+                    "type": "date_type"
+                },
+                "isRange": true,
+                "id": "50447073",
+                "version": "7374452"
+            }
+        ]
+    },
+    "timing": 726.73
+}
+
