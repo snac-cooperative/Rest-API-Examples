@@ -29,7 +29,7 @@ function querySNAC($query, $url) {
 
 
 // SNAC Development URL.  Replace with correct URL
-$SNAC_URL = "http://snac-dev.iath.virginia.edu:81/";
+$SNAC_URL = "http://snac-dev.iath.virginia.edu/api";
 
 $USER = ''; // From snac's API key page (everything in the user object, i.e. '{...}' only
 
