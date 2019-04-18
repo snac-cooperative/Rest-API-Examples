@@ -7,7 +7,7 @@ This repository provides some examples for interacting with the SNAC REST API.
 For testing purposes, please use the REST API located at:
 
 ```
-http://snac-dev.iath.virginia.edu:81
+http://snac-dev.iath.virginia.edu/api
 ```
 
 When you are ready to "go live" with your project, switch to the production API located at:
